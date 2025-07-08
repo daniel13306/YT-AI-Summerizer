@@ -1,5 +1,5 @@
-# YT-AI-Summerizer
-YT AI Summerizer by DeadEagle using gemini API
+# YT-AI-Summarizer 
+YT AI Summarizer  by DeadEagle using gemini API
 # How to use in browser:
 Are you done with Clickbate / BS videos? are you about to watch a 30+ minute video, but your unsure if its going to be BS or not?
 Use this YT Summerizer plugin!
@@ -11,3 +11,5 @@ NOTE: The AI does not receive Title/Desc, since youtube doesnt always correctly 
 ### The button might not always show up due to youtube's object loading, if it doesnt, just refresh the page.
 
 # How to install:
+Super easy, just download the files above (background.js / content.js / manifest.json)
+and put them in a folder, for example C:/Documents/Plugins/YTSummerizer 
