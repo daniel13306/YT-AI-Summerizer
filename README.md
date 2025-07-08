@@ -12,7 +12,9 @@ NOTE: The AI does not receive Title/Desc, since youtube doesnt always correctly 
 
 # How to install:
 Super easy, just download the files above (background.js / content.js / manifest.json)
-and put them in a folder, for example C:/Documents/Plugins/YTSummerizer 
+and put them in a folder, for example C:/Documents/Plugins/YTSummerizer .
+## Make sure you go into background.js and edit your gemini API key! add it after ?key= in the URL!
+visit https://aistudio.google.com/app/u/3/apikey to get your API key.
 Open your Chrome based browser and go to chrome://extensions/
 Enable Developer Mode (top right)
 Press Load Unpackaged, and go to C:/Documents/Plugins/YTSummerizer or wherever you saved the files, now the green button shows up under youtube videos.
