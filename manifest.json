@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YT Transcript Summarizer by DeadEagleNL",
+  "version": "1.0",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["*://*.youtube.com/watch?*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "YT Transcript Summarizer by DeadEagleNL"
+  }
+}
