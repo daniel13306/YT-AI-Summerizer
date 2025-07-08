@@ -14,7 +14,6 @@ chrome.runtime.onMessage.addListener(async (msg, sender) => {
       );
 
       if (!res.ok) {
-        // HTTP error, handle unauthorized or invalid key status codes
         if (res.status === 401 || res.status === 403) {
           chrome.tabs.sendMessage(sender.tab.id, {
             action: "showSummary",
